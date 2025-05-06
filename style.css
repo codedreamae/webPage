@@ -300,15 +300,22 @@ footer .footer-bottom {
         margin-top: 0px;
         text-align: center;
     }
-    .card {
-        margin-top: 5px;
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .card-img-top {
+        width: 80px; /* slightly larger for better visibility */
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 15px;
     }
     
-    .card-img-top {
-        width: auto;
-        height: 80px;
-    }
     #about {
         margin-top: 30px !important;
     }

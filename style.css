@@ -306,11 +306,11 @@ footer .footer-bottom {
     }
 
     .card-img-top {
-        width: 80px; /* slightly larger for better visibility */
+        width: 50px; /* slightly larger for better visibility */
     }
 
     .card {
-        width: 100%;
+        width:80%;
         margin-bottom: 15px;
         margin: 0 auto;
     }
